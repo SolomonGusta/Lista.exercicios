@@ -33,11 +33,20 @@
   #print(f"O valor atual de x é {x}, que ainda não é igual a 5.")
   #x += 1 #Incrementa x para evitar um loop infinito
 
-# Solicita a entrada do usuário e padroniza o texto
-email = input("Digite o seu e-mail institucional: ").strip().lower()
+def contar_vogais(palavra):
+    vogais = "aeiouAEIOU"
+    contador = 0
+    
+    # Loop 'for' para percorrer cada caractere da palavra
+    for caractere in palavra:
+        if caractere in vogais:
+            contador += 1
+            
+    return contador
 
-# Verifica se o domínio obrigatório está no texto e se há algo antes do '@'
-if "@jogajuntoinstituto.org" in email and not email.startswith("@"):
-    print("Sucesso: O e-mail pertence ao Instituto Joga Junto.")
-else:
-    print("Erro: E-mail inválido. Utilize um endereço @jogajuntoinstituto.org.")
+# Solicitação de entrada ao usuário
+palavra_usuario = input("Digite uma palavra: ")
+
+# Chamada da função e exibição do resultado
+total_vogais = contar_vogais(palavra_usuario)
+print(f"A palavra '{palavra_usuario}' possui {total_vogais} vogais.")
