@@ -25,3 +25,24 @@ def verificar_time(matricula):
 
 matricula = int(input("Digite sua matrícula: "))
 print(verificar_time(matricula))
+
+def verificar_time(matricula):
+    return (
+        f"🔵 Matrícula {matricula}: VOCÊ ESTÁ NO TIME AZUL 🔵"
+        if matricula % 2 == 0
+        else f"🟡 Matrícula {matricula}: VOCÊ ESTÁ NO TIME AMARELO 🟡"
+    )
+
+
+matriculas = []
+
+# Validador que permite inserir até ocupar 5 espaços (índices 0 a 4)
+while len(matriculas) < 5:
+    numero = int(input(f"🔢 Digite a {len(matriculas) + 1}ª matrícula: "))
+    matriculas.append(numero)
+
+print("\n📋 Resultado da divisão dos times:")
+
+# Laço de repetição para passar todos os números da lista na função
+for matricula in matriculas:
+    print(verificar_time(matricula))
