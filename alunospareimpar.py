@@ -17,9 +17,9 @@ VOCÊ ESTÁ NO TIME AMARELO
 '''
 def verificar_time(matricula):
     return (
-        "VOCÊ ESTÁ NO TIME AZUL"
+        "🔵 VOCÊ ESTÁ NO TIME AZUL 🔵"
         if matricula % 2 == 0
-        else "VOCÊ ESTÁ NO TIME AMARELO"
+        else "🟡 VOCÊ ESTÁ NO TIME AMARELO 🟡"
     )
 
 

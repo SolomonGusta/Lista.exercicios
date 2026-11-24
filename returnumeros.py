@@ -1,11 +1,9 @@
-def somar(a, b):
-    return a + b
+def somar(g1, g2):
+    return g1 + g2
 
 
-# Pede os dois números ao usuário
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
+numero1 = float(input("🔢 Digite o primeiro número: "))
+numero2 = float(input("🔢 Digite o segundo número: "))
 
-# Chama a função, guarda o resultado retornado e mostra na tela
 resultado = somar(numero1, numero2)
-print("A soma é:", resultado)
+print("➕ A soma é:", resultado)
