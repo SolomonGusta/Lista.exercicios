@@ -1,0 +1,15 @@
+.venv
+
+def verificar_time(matricula):
+    if matricula % 2 == 0:
+        return "VOCÊ ESTÁ NO TIME AZUL"
+    else:
+        return "VOCÊ ESTÁ NO TIME AMARELO"
+
+
+# Entrada de dados pelo usuário no console
+numero_matricula = int(input("Digite o número da sua matrícula: "))
+
+# Chamada da função e exibição do resultado
+resultado = verificar_time(numero_matricula)
+print(resultado)

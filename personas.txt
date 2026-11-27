@@ -1,0 +1,30 @@
+PERSONAS FICTÍCIAS — CPFs APENAS PARA TESTE
+==========================================================================================
+                        Nome   CPF de teste  Idade                Cidade
+               👩 Agatha Leão 431.896.614-30     38   📍 Campos das Flores
+        👨 Alexandre Ferreira 585.735.947-30     23            📍 Cassiano
+              👩 Amanda Cunha 326.063.708-72     48             📍 Marques
+          👩 Ana Júlia Mendes 625.995.881-11     48              📍 Novais
+                👨 André Rios 812.332.634-39     31              📍 Araújo
+           👨 Arthur da Rocha 472.087.816-48     18 📍 Gonçalves de Mendes
+           👨 Augusto Ribeiro 516.916.631-15     43    📍 Aparecida do Sul
+         👨 Benjamim Caldeira 943.201.279-43     53               📍 Sales
+         👨 Davi Luiz da Cruz 454.264.245-35     53               📍 Pires
+          👩 Emilly Rodrigues 867.283.523-92     22              📍 Cirino
+           👩 Fernanda Araújo 234.712.457-90     35              📍 Vieira
+             👩 Isabela Viana 083.355.541-37     24              📍 Barros
+               👩 Isis Aragão 906.245.586-73     59 📍 Cavalcanti do Oeste
+               👨 João da Luz 527.962.686-40     44 📍 Aparecida de Santos
+               👨 Kevin Alves 838.399.442-79     54             📍 Azevedo
+              👨 Levi Cardoso 640.600.779-41     52     📍 Moraes de Minas
+     👨 Luiz Fernando Sampaio 098.611.873-75     50              📍 Macedo
+       👨 Luiz Otávio Fonseca 484.891.078-15     30              📍 Câmara
+          👨 Matheus Carvalho 398.103.470-81     21  📍 Albuquerque Grande
+            👨 Matteo da Mota 010.396.204-26     40    📍 Sousa de Pacheco
+             👩 Olivia Campos 820.148.744-33     29             📍 Fonseca
+        👨 Pedro Lucas Borges 786.019.607-74     22 📍 Teixeira de Fonseca
+  👨 Sr. Enzo Gabriel Freitas 101.683.044-06     19               📍 Moura
+👩 Srta. Maria Luísa da Costa 760.243.838-86     29               📍 Lopes
+         👨 Vinicius Mendonça 532.210.537-97     56            📍 Cassiano
+==========================================================================================
+Total de personas: 25
